@@ -1,0 +1,15 @@
+# Visitor Gate Pass Management System
+
+A web-based system to manage and record visitor entries digitally using Python Flask.
+
+## Features
+- Add new visitors with name, contact, and purpose.
+- Upload or capture visitor photos.
+- Generate digital gate passes.
+- Admin dashboard to view all records.
+- SQLite database for data storage.
+
+## Tech Stack
+- **Frontend:** HTML, CSS, Bootstrap, JavaScript  
+- **Backend:** Python Flask  
+- **Database:** SQLite 
