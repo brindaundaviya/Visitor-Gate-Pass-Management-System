@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Back Visitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        h2 {
+            color: #00ff99;
+        }
+        button {
+            background-color: #2196F3;
+        }
+        button:hover {
+            background-color: #1e88e5;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome Back, {{ name.capitalize() }}</h2>
+    <form method="POST" action="/submit_short">
+        <input type="hidden" name="name" value="{{ name }}">
+        <input type="text" name="purpose" placeholder="Purpose of Visit" required>
+        <input type="text" name="to_meet" placeholder="Whom to Meet" required>
+        <button type="submit">Submit Entry</button>
+    </form>
+</body>
+</html>
