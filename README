@@ -12,4 +12,11 @@ A web-based system to manage and record visitor entries digitally using Python F
 ## Tech Stack
 - **Frontend:** HTML, CSS, Bootstrap, JavaScript  
 - **Backend:** Python Flask  
+
 - **Database:** SQLite 
+
+📝 Note:
+In the original project structure,
+HTML files are stored inside the "templates" folder
+and CSS files are stored inside the "static" folder.
+Due to GitHub upload limitations, they are uploaded here separately.
